@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90078C4220B05845001B0E83 /* CollectionTC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90078C4120B05845001B0E83 /* CollectionTC.xib */; };
+		90078C4420B059AD001B0E83 /* TargetNameCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90078C4320B059AD001B0E83 /* TargetNameCC.swift */; };
+		90078C4620B059C6001B0E83 /* TargetNameCC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90078C4520B059C6001B0E83 /* TargetNameCC.xib */; };
+		90078C4820B05C56001B0E83 /* CollectionTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90078C4720B05C56001B0E83 /* CollectionTC.swift */; };
+		90078C4D20B0B743001B0E83 /* SessionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90078C4C20B0B743001B0E83 /* SessionExtension.swift */; };
+		90078C4F20B0C8E7001B0E83 /* ConfigureSessionPickerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90078C4E20B0C8E7001B0E83 /* ConfigureSessionPickerExtension.swift */; };
+		90078C5520B0CCF8001B0E83 /* TargetTC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90078C5420B0CCF8001B0E83 /* TargetTC.xib */; };
+		90078C5920B0CF88001B0E83 /* TargetTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90078C5820B0CF88001B0E83 /* TargetTC.swift */; };
+		90078C5E20B20C28001B0E83 /* SessionVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90078C5D20B20C28001B0E83 /* SessionVO.swift */; };
+		90078C6020B20C63001B0E83 /* TargetVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90078C5F20B20C63001B0E83 /* TargetVO.swift */; };
+		900D2DFC20ACD042003466DA /* SessionTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900D2DFB20ACD042003466DA /* SessionTVC.swift */; };
+		900D2DFE20ACD537003466DA /* ConfigureSessionTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900D2DFD20ACD537003466DA /* ConfigureSessionTVC.swift */; };
+		901A099A20B64AFD00BA6A23 /* TargetSilhouetteTC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 901A099920B64AFD00BA6A23 /* TargetSilhouetteTC.xib */; };
+		901A099C20B64C1B00BA6A23 /* TargetSilhouetteTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901A099B20B64C1B00BA6A23 /* TargetSilhouetteTC.swift */; };
+		9023CDFE20AE10BB00399981 /* TextFieldTC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9023CDFD20AE10BB00399981 /* TextFieldTC.xib */; };
+		9023CE0020AE123900399981 /* TextFieldTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9023CDFF20AE123900399981 /* TextFieldTC.swift */; };
+		9023CE0220AE167C00399981 /* PickViewTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9023CE0120AE167C00399981 /* PickViewTC.swift */; };
+		9023CE0420AE1D7B00399981 /* PickViewTC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9023CE0320AE1D7B00399981 /* PickViewTC.xib */; };
+		9052FFEA20AFA16A0074CBD0 /* SessionTC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9052FFE920AFA16A0074CBD0 /* SessionTC.xib */; };
+		906A0CA620AD9B5C005D0DD8 /* OnlyDateTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906A0CA520AD9B5C005D0DD8 /* OnlyDateTC.swift */; };
+		906A0CAA20ADBA07005D0DD8 /* UIToolbarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906A0CA920ADBA07005D0DD8 /* UIToolbarExtension.swift */; };
+		9092599020AC5D9E0043AC06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9092598F20AC5D9E0043AC06 /* AppDelegate.swift */; };
+		9092599820AC5D9E0043AC06 /* metallicsilhouette.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9092599620AC5D9E0043AC06 /* metallicsilhouette.xcdatamodeld */; };
+		9092599A20AC5DA00043AC06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9092599920AC5DA00043AC06 /* Assets.xcassets */; };
+		909ADA8B20B72B110082C18D /* TimerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909ADA8A20B72B110082C18D /* TimerVC.swift */; };
+		909ADA8D20B753090082C18D /* RepeatingTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909ADA8C20B753090082C18D /* RepeatingTimer.swift */; };
+		90C3D8D220C73870005B9C1E /* OnlyDateTC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 906A0CA720AD9B79005D0DD8 /* OnlyDateTC.xib */; };
+		90D7D46220AC8E6A000241FC /* Session.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D7D46120AC8E6A000241FC /* Session.storyboard */; };
+		90D7D46420AC8EAA000241FC /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D7D46320AC8EAA000241FC /* Launch.storyboard */; };
+		90D7D46820AC8F70000241FC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D7D46520AC8F70000241FC /* Constant.swift */; };
+		90D7D46920AC8F70000241FC /* JsonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D7D46620AC8F70000241FC /* JsonExtension.swift */; };
+		90D7D46A20AC8F70000241FC /* RestExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D7D46720AC8F70000241FC /* RestExtension.swift */; };
+		D87A4F2B31322AF9273FBA79 /* Pods_metallicsilhouette.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88004C98B5C51E4478CB8D91 /* Pods_metallicsilhouette.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F6A452BD4382417036478D6 /* Pods-metallicsilhouette.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-metallicsilhouette.debug.xcconfig"; path = "Pods/Target Support Files/Pods-metallicsilhouette/Pods-metallicsilhouette.debug.xcconfig"; sourceTree = "<group>"; };
+		88004C98B5C51E4478CB8D91 /* Pods_metallicsilhouette.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_metallicsilhouette.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90078C4120B05845001B0E83 /* CollectionTC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionTC.xib; sourceTree = "<group>"; };
+		90078C4320B059AD001B0E83 /* TargetNameCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetNameCC.swift; sourceTree = "<group>"; };
+		90078C4520B059C6001B0E83 /* TargetNameCC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TargetNameCC.xib; sourceTree = "<group>"; };
+		90078C4720B05C56001B0E83 /* CollectionTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTC.swift; sourceTree = "<group>"; };
+		90078C4C20B0B743001B0E83 /* SessionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionExtension.swift; sourceTree = "<group>"; };
+		90078C4E20B0C8E7001B0E83 /* ConfigureSessionPickerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureSessionPickerExtension.swift; sourceTree = "<group>"; };
+		90078C5420B0CCF8001B0E83 /* TargetTC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TargetTC.xib; sourceTree = "<group>"; };
+		90078C5820B0CF88001B0E83 /* TargetTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetTC.swift; sourceTree = "<group>"; };
+		90078C5D20B20C28001B0E83 /* SessionVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionVO.swift; sourceTree = "<group>"; };
+		90078C5F20B20C63001B0E83 /* TargetVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetVO.swift; sourceTree = "<group>"; };
+		900D2DFB20ACD042003466DA /* SessionTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionTVC.swift; sourceTree = "<group>"; };
+		900D2DFD20ACD537003466DA /* ConfigureSessionTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureSessionTVC.swift; sourceTree = "<group>"; };
+		901A099920B64AFD00BA6A23 /* TargetSilhouetteTC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TargetSilhouetteTC.xib; sourceTree = "<group>"; };
+		901A099B20B64C1B00BA6A23 /* TargetSilhouetteTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetSilhouetteTC.swift; sourceTree = "<group>"; };
+		9023CDFD20AE10BB00399981 /* TextFieldTC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldTC.xib; sourceTree = "<group>"; };
+		9023CDFF20AE123900399981 /* TextFieldTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTC.swift; sourceTree = "<group>"; };
+		9023CE0120AE167C00399981 /* PickViewTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickViewTC.swift; sourceTree = "<group>"; };
+		9023CE0320AE1D7B00399981 /* PickViewTC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PickViewTC.xib; sourceTree = "<group>"; };
+		9052FFE920AFA16A0074CBD0 /* SessionTC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SessionTC.xib; sourceTree = "<group>"; };
+		906A0CA520AD9B5C005D0DD8 /* OnlyDateTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyDateTC.swift; sourceTree = "<group>"; };
+		906A0CA720AD9B79005D0DD8 /* OnlyDateTC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnlyDateTC.xib; sourceTree = "<group>"; };
+		906A0CA920ADBA07005D0DD8 /* UIToolbarExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIToolbarExtension.swift; sourceTree = "<group>"; };
+		9092598C20AC5D9E0043AC06 /* metallicsilhouette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = metallicsilhouette.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9092598F20AC5D9E0043AC06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9092599720AC5D9E0043AC06 /* silhuetametalica.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = silhuetametalica.xcdatamodel; sourceTree = "<group>"; };
+		9092599920AC5DA00043AC06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9092599E20AC5DA00043AC06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		909ADA8A20B72B110082C18D /* TimerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerVC.swift; sourceTree = "<group>"; };
+		909ADA8C20B753090082C18D /* RepeatingTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingTimer.swift; sourceTree = "<group>"; };
+		90D7D46120AC8E6A000241FC /* Session.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Session.storyboard; sourceTree = "<group>"; };
+		90D7D46320AC8EAA000241FC /* Launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
+		90D7D46520AC8F70000241FC /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		90D7D46620AC8F70000241FC /* JsonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonExtension.swift; sourceTree = "<group>"; };
+		90D7D46720AC8F70000241FC /* RestExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestExtension.swift; sourceTree = "<group>"; };
+		B23C4EA88C2ACBA8C1C0761E /* Pods-silhuetametalica.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-silhuetametalica.release.xcconfig"; path = "Pods/Target Support Files/Pods-silhuetametalica/Pods-silhuetametalica.release.xcconfig"; sourceTree = "<group>"; };
+		DBBBC719C414D730E6AEC211 /* Pods_silhuetametalica.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_silhuetametalica.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC859A86CDF84FD6B693EA35 /* Pods-metallicsilhouette.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-metallicsilhouette.release.xcconfig"; path = "Pods/Target Support Files/Pods-metallicsilhouette/Pods-metallicsilhouette.release.xcconfig"; sourceTree = "<group>"; };
+		ED6AB53CF74589D08B3D671F /* Pods-silhuetametalica.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-silhuetametalica.debug.xcconfig"; path = "Pods/Target Support Files/Pods-silhuetametalica/Pods-silhuetametalica.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9092598920AC5D9E0043AC06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D87A4F2B31322AF9273FBA79 /* Pods_metallicsilhouette.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90078C4920B061C7001B0E83 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				90078C4E20B0C8E7001B0E83 /* ConfigureSessionPickerExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		90078C5C20B20C06001B0E83 /* VO */ = {
+			isa = PBXGroup;
+			children = (
+				90078C5D20B20C28001B0E83 /* SessionVO.swift */,
+				90078C5F20B20C63001B0E83 /* TargetVO.swift */,
+			);
+			path = VO;
+			sourceTree = "<group>";
+		};
+		906A0CA320AD9ABD005D0DD8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				906A0CA420AD9AC8005D0DD8 /* Implementation */,
+				906A0CA720AD9B79005D0DD8 /* OnlyDateTC.xib */,
+				9023CDFD20AE10BB00399981 /* TextFieldTC.xib */,
+				9023CE0320AE1D7B00399981 /* PickViewTC.xib */,
+				9052FFE920AFA16A0074CBD0 /* SessionTC.xib */,
+				90078C4120B05845001B0E83 /* CollectionTC.xib */,
+				90078C4520B059C6001B0E83 /* TargetNameCC.xib */,
+				90078C5420B0CCF8001B0E83 /* TargetTC.xib */,
+				901A099920B64AFD00BA6A23 /* TargetSilhouetteTC.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		906A0CA420AD9AC8005D0DD8 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				90078C4720B05C56001B0E83 /* CollectionTC.swift */,
+				906A0CA520AD9B5C005D0DD8 /* OnlyDateTC.swift */,
+				9023CDFF20AE123900399981 /* TextFieldTC.swift */,
+				9023CE0120AE167C00399981 /* PickViewTC.swift */,
+				90078C4320B059AD001B0E83 /* TargetNameCC.swift */,
+				90078C5820B0CF88001B0E83 /* TargetTC.swift */,
+				901A099B20B64C1B00BA6A23 /* TargetSilhouetteTC.swift */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		9092598320AC5D9E0043AC06 = {
+			isa = PBXGroup;
+			children = (
+				9092598E20AC5D9E0043AC06 /* metallicsilhouette */,
+				9092598D20AC5D9E0043AC06 /* Products */,
+				E90A1F92FE9CAAF332FAC420 /* Pods */,
+				E6DFFC9DA64B5AA18D1E25C9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9092598D20AC5D9E0043AC06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9092598C20AC5D9E0043AC06 /* metallicsilhouette.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9092598E20AC5D9E0043AC06 /* metallicsilhouette */ = {
+			isa = PBXGroup;
+			children = (
+				909259A820AC5E870043AC06 /* View */,
+				909259A720AC5E800043AC06 /* Configuration */,
+				909259A620AC5E780043AC06 /* Extension */,
+				909259A520AC5E730043AC06 /* Model */,
+				909259A420AC5E6A0043AC06 /* Controller */,
+				9092599920AC5DA00043AC06 /* Assets.xcassets */,
+				9092599E20AC5DA00043AC06 /* Info.plist */,
+				9092599620AC5D9E0043AC06 /* metallicsilhouette.xcdatamodeld */,
+			);
+			path = metallicsilhouette;
+			sourceTree = "<group>";
+		};
+		909259A420AC5E6A0043AC06 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				90078C4920B061C7001B0E83 /* Extension */,
+				900D2DFB20ACD042003466DA /* SessionTVC.swift */,
+				900D2DFD20ACD537003466DA /* ConfigureSessionTVC.swift */,
+				909ADA8A20B72B110082C18D /* TimerVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		909259A520AC5E730043AC06 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				90078C5C20B20C06001B0E83 /* VO */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		909259A620AC5E780043AC06 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				90D7D46520AC8F70000241FC /* Constant.swift */,
+				90D7D46620AC8F70000241FC /* JsonExtension.swift */,
+				90D7D46720AC8F70000241FC /* RestExtension.swift */,
+				906A0CA920ADBA07005D0DD8 /* UIToolbarExtension.swift */,
+				90078C4C20B0B743001B0E83 /* SessionExtension.swift */,
+				909ADA8C20B753090082C18D /* RepeatingTimer.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		909259A720AC5E800043AC06 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				9092598F20AC5D9E0043AC06 /* AppDelegate.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		909259A820AC5E870043AC06 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				906A0CA320AD9ABD005D0DD8 /* Cell */,
+				909259A920AC5EB70043AC06 /* Storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		909259A920AC5EB70043AC06 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				90D7D46120AC8E6A000241FC /* Session.storyboard */,
+				90D7D46320AC8EAA000241FC /* Launch.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		E6DFFC9DA64B5AA18D1E25C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBBBC719C414D730E6AEC211 /* Pods_silhuetametalica.framework */,
+				88004C98B5C51E4478CB8D91 /* Pods_metallicsilhouette.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E90A1F92FE9CAAF332FAC420 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED6AB53CF74589D08B3D671F /* Pods-silhuetametalica.debug.xcconfig */,
+				B23C4EA88C2ACBA8C1C0761E /* Pods-silhuetametalica.release.xcconfig */,
+				4F6A452BD4382417036478D6 /* Pods-metallicsilhouette.debug.xcconfig */,
+				EC859A86CDF84FD6B693EA35 /* Pods-metallicsilhouette.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9092598B20AC5D9E0043AC06 /* metallicsilhouette */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 909259A120AC5DA00043AC06 /* Build configuration list for PBXNativeTarget "metallicsilhouette" */;
+			buildPhases = (
+				23DD5C474764E809BA35FE3A /* [CP] Check Pods Manifest.lock */,
+				9092598820AC5D9E0043AC06 /* Sources */,
+				9092598920AC5D9E0043AC06 /* Frameworks */,
+				9092598A20AC5D9E0043AC06 /* Resources */,
+				174E79734F39DE72DAA56B0F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = metallicsilhouette;
+			productName = silhuetametalica;
+			productReference = 9092598C20AC5D9E0043AC06 /* metallicsilhouette.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9092598420AC5D9E0043AC06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Grupo Europa";
+				TargetAttributes = {
+					9092598B20AC5D9E0043AC06 = {
+						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 9092598720AC5D9E0043AC06 /* Build configuration list for PBXProject "metallicsilhouette" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9092598320AC5D9E0043AC06;
+			productRefGroup = 9092598D20AC5D9E0043AC06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9092598B20AC5D9E0043AC06 /* metallicsilhouette */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9092598A20AC5D9E0043AC06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C3D8D220C73870005B9C1E /* OnlyDateTC.xib in Resources */,
+				90D7D46220AC8E6A000241FC /* Session.storyboard in Resources */,
+				9023CDFE20AE10BB00399981 /* TextFieldTC.xib in Resources */,
+				9092599A20AC5DA00043AC06 /* Assets.xcassets in Resources */,
+				901A099A20B64AFD00BA6A23 /* TargetSilhouetteTC.xib in Resources */,
+				90078C4220B05845001B0E83 /* CollectionTC.xib in Resources */,
+				9023CE0420AE1D7B00399981 /* PickViewTC.xib in Resources */,
+				9052FFEA20AFA16A0074CBD0 /* SessionTC.xib in Resources */,
+				90078C5520B0CCF8001B0E83 /* TargetTC.xib in Resources */,
+				90078C4620B059C6001B0E83 /* TargetNameCC.xib in Resources */,
+				90D7D46420AC8EAA000241FC /* Launch.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		174E79734F39DE72DAA56B0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-metallicsilhouette/Pods-metallicsilhouette-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-metallicsilhouette/Pods-metallicsilhouette-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23DD5C474764E809BA35FE3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-metallicsilhouette-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9092598820AC5D9E0043AC06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90078C4820B05C56001B0E83 /* CollectionTC.swift in Sources */,
+				9092599820AC5D9E0043AC06 /* metallicsilhouette.xcdatamodeld in Sources */,
+				90078C4420B059AD001B0E83 /* TargetNameCC.swift in Sources */,
+				90078C5920B0CF88001B0E83 /* TargetTC.swift in Sources */,
+				900D2DFE20ACD537003466DA /* ConfigureSessionTVC.swift in Sources */,
+				906A0CAA20ADBA07005D0DD8 /* UIToolbarExtension.swift in Sources */,
+				909ADA8B20B72B110082C18D /* TimerVC.swift in Sources */,
+				90078C5E20B20C28001B0E83 /* SessionVO.swift in Sources */,
+				90D7D46920AC8F70000241FC /* JsonExtension.swift in Sources */,
+				90078C4D20B0B743001B0E83 /* SessionExtension.swift in Sources */,
+				90078C6020B20C63001B0E83 /* TargetVO.swift in Sources */,
+				901A099C20B64C1B00BA6A23 /* TargetSilhouetteTC.swift in Sources */,
+				9023CE0020AE123900399981 /* TextFieldTC.swift in Sources */,
+				9023CE0220AE167C00399981 /* PickViewTC.swift in Sources */,
+				900D2DFC20ACD042003466DA /* SessionTVC.swift in Sources */,
+				90D7D46A20AC8F70000241FC /* RestExtension.swift in Sources */,
+				9092599020AC5D9E0043AC06 /* AppDelegate.swift in Sources */,
+				90078C4F20B0C8E7001B0E83 /* ConfigureSessionPickerExtension.swift in Sources */,
+				906A0CA620AD9B5C005D0DD8 /* OnlyDateTC.swift in Sources */,
+				909ADA8D20B753090082C18D /* RepeatingTimer.swift in Sources */,
+				90D7D46820AC8F70000241FC /* Constant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9092599F20AC5DA00043AC06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		909259A020AC5DA00043AC06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		909259A220AC5DA00043AC06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F6A452BD4382417036478D6 /* Pods-metallicsilhouette.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LNXZ8944UA;
+				INFOPLIST_FILE = "$(SRCROOT)/metallicsilhouette/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.geen.app.metallicsilhouette;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		909259A320AC5DA00043AC06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC859A86CDF84FD6B693EA35 /* Pods-metallicsilhouette.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LNXZ8944UA;
+				INFOPLIST_FILE = "$(SRCROOT)/metallicsilhouette/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.geen.app.metallicsilhouette;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9092598720AC5D9E0043AC06 /* Build configuration list for PBXProject "metallicsilhouette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9092599F20AC5DA00043AC06 /* Debug */,
+				909259A020AC5DA00043AC06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		909259A120AC5DA00043AC06 /* Build configuration list for PBXNativeTarget "metallicsilhouette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				909259A220AC5DA00043AC06 /* Debug */,
+				909259A320AC5DA00043AC06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9092599620AC5D9E0043AC06 /* metallicsilhouette.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9092599720AC5D9E0043AC06 /* silhuetametalica.xcdatamodel */,
+			);
+			currentVersion = 9092599720AC5D9E0043AC06 /* silhuetametalica.xcdatamodel */;
+			path = metallicsilhouette.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9092598420AC5D9E0043AC06 /* Project object */;
+}

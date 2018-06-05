@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14133" systemVersion="17E202" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Sessions" representedClassName="SessionMO" syncable="YES" codeGenerationType="class">
+        <attribute name="sessionDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="sessionName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="targets" optional="YES" toMany="YES" minCount="1" maxCount="4" deletionRule="Nullify" ordered="YES" destinationEntity="Targets" inverseName="session" inverseEntity="Targets" syncable="YES"/>
+    </entity>
+    <entity name="Targets" representedClassName="TargetMO" syncable="YES" codeGenerationType="class">
+        <attribute name="shotFiveDropped" optional="YES" attributeType="Boolean" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="shotFourDropped" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="shotOneDropped" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="shotThreeDropped" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="shotTwoDropped" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalDropped" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="session" optional="YES" maxCount="1" deletionRule="Cascade" ordered="YES" destinationEntity="Sessions" inverseName="targets" inverseEntity="Sessions" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Sessions" positionX="-450" positionY="-18" width="128" height="103"/>
+        <element name="Targets" positionX="-54" positionY="-9" width="128" height="180"/>
+    </elements>
+</model>
